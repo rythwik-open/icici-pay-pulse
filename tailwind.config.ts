@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// ICICI brand colors
+				icici: {
+					orange: '#F37E20',
+					blue: '#004C8F',
+					lightGray: '#F5F7FA',
+					darkGray: '#4A5568',
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
